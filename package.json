@@ -4,10 +4,16 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lintfix": "eslint --fix --ext .ts,.js,.vue .",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "nuxt": "3.0.0",
+    "typescript": "^4.9.4"
   }
 }
