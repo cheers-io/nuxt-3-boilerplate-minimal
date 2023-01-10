@@ -21,6 +21,7 @@
     "@commitlint/config-conventional": "^17.4.0",
     "husky": "^8.0.0",
     "@pinia/nuxt": "^0.4.6",
-    "pinia": "^2.0.28"
+    "pinia": "^2.0.28",
+    "@nuxtjs/i18n": "8.0.0-beta.7"
   }
 }
