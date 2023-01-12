@@ -40,3 +40,15 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Unit Tests
+
+This boilerplate has [playwright](https://playwright.dev/) for E2E testing and [vitest](https://vitest.dev/) for unit tests. Please create your E2E tests inside **tests** folder and create your unit tests inside the related file/component folder. 
+
+i.e: <br>
+```
+-- components
+---- PerfectComponent
+------ index.vue
+------ PerfectComponent.spec.ts
+```
