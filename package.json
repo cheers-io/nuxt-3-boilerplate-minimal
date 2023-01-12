@@ -20,6 +20,8 @@
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@pinia/nuxt": "^0.4.6",
     "@playwright/test": "^1.29.2",
+    "@vueuse/core": "^9.10.0",
+    "@vueuse/nuxt": "^9.10.0",
     "eslint": "^8.31.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vitest": "^0.0.28",
