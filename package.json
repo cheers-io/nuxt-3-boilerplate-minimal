@@ -12,15 +12,17 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.31.0",
-    "eslint-plugin-nuxt": "^4.0.0",
-    "nuxt": "3.0.0",
-    "typescript": "^4.9.4",
     "@commitlint/cli": "^17.4.1",
     "@commitlint/config-conventional": "^17.4.0",
-    "husky": "^8.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@pinia/nuxt": "^0.4.6",
-    "pinia": "^2.0.28"
+    "eslint": "^8.31.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "husky": "^8.0.0",
+    "nuxt": "3.0.0",
+    "pinia": "^2.0.28",
+    "typescript": "^4.9.4",
+    "vue": "^3.2.45"
   }
 }
