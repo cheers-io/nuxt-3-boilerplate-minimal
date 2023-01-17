@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@pinia/nuxt', '@nuxtjs/i18n'],
+  modules: ['@pinia/nuxt', '@nuxtjs/i18n', 'nuxt-windicss'],
 
   i18n: {
     detectBrowserLanguage: {
@@ -14,4 +14,5 @@ export default defineNuxtConfig({
     langDir: './locales',
     defaultLocale: 'en'
   }
+
 });
