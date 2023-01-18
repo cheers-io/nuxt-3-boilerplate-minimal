@@ -5,6 +5,7 @@ test('switch language', async ({ page }) => {
 
   await page.locator('select.language-selector').selectOption('de');
 
-  await page.getByRole('paragraph', { text: 'Willkommen' });
+  const b = await page.locator('p.welcome-message').innerText();
+  expect(b).toBe('Willkommen');
 });
 
