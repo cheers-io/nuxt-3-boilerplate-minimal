@@ -11,7 +11,8 @@
     "prepare": "husky install",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
-    "test:e2e": "pnpm dlx playwright test"
+    "test:e2e": "pnpm dlx playwright test",
+    "test:e2e:debug": "pnpm dlx playwright test --debug"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.1",
