@@ -8,4 +8,3 @@ test('switch language', async ({ page }) => {
   const b = await page.locator('p.welcome-message').innerText();
   expect(b).toBe('Willkommen');
 });
-

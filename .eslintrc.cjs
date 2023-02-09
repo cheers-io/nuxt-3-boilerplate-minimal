@@ -6,8 +6,7 @@ module.exports = {
   },
   extends: [
     '@nuxtjs/eslint-config-typescript',
-    'plugin:nuxt/recommended',
-    'plugin:vitest/recommended'
+    'plugin:nuxt/recommended'
   ],
   plugins: ['vitest'],
   rules: {

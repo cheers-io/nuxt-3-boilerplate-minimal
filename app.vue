@@ -3,10 +3,16 @@
     <div class="language-container">
       <form>
         <select v-model="locale" class="language-selector">
-          <option value="en">en</option>
-          <option value="de">de</option>
+          <option value="en">
+            en
+          </option>
+          <option value="de">
+            de
+          </option>
         </select>
-        <p class="welcome-message">{{ $t('welcome') }}</p>
+        <p class="welcome-message">
+          {{ $t('welcome') }}
+        </p>
       </form>
     </div>
     <NuxtWelcome />
