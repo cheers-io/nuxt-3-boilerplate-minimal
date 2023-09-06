@@ -6,7 +6,7 @@ Feel free to start a discussion about new features we should include.
 ## Features
 
 - [Nuxt 3](https://nuxt.com/)
-- [Windicss](https://windicss.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Pinia](https://pinia.vuejs.org/getting-started.html)
 - Internalization [nuxt/i18n](https://v8.i18n.nuxtjs.org/)
 - [ESLint](https://eslint.org/)

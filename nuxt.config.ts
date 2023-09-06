@@ -1,10 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@pinia/nuxt', '@nuxtjs/i18n', 'nuxt-windicss', '@vueuse/nuxt'],
+  modules: ['@pinia/nuxt', '@nuxtjs/i18n', '@vueuse/nuxt'],
 
   i18n: {
     detectBrowserLanguage: {
-      useCookie: true,
       alwaysRedirect: true
     },
     locales: [
@@ -13,6 +12,12 @@ export default defineNuxtConfig({
     ],
     langDir: './locales',
     defaultLocale: 'en'
+  },
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
   }
-
 });
