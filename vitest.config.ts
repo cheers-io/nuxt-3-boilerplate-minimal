@@ -1,7 +1,8 @@
-import { configDefaults, defineConfig } from 'vitest/config';
+import { defineVitestConfig } from 'nuxt-vitest/config';
+import { configDefaults } from 'vitest/config';
 
-export default defineConfig({
+export default defineVitestConfig({
   test: {
-    exclude: [...configDefaults.exclude, 'tests/*', 'tests-examples/*']
+    exclude: [...configDefaults.exclude, 'tests/e2e/**']
   }
 });
