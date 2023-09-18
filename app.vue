@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { locale } = useI18n();
+</script>
+
 <template>
   <div>
     <div class="language-container">
@@ -19,13 +23,9 @@
   </div>
 </template>
 
-<script setup lang="ts">
-const { locale } = useI18n();
-</script>
-
 <style>
 .language-container {
-  @apply p-4 right mx-auto w-48 text-center;
+  @apply p-4 mx-auto w-48 text-center;
 }
 
 select {

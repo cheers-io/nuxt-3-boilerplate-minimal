@@ -16,24 +16,26 @@
     "test:e2e:debug": "pnpm dlx playwright test --debug"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
-    "@pinia/nuxt": "^0.4.6",
-    "@playwright/test": "^1.30.0",
-    "@vueuse/core": "^9.12.0",
-    "@vueuse/nuxt": "^9.12.0",
-    "eslint": "^8.33.0",
-    "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vitest": "^0.0.32",
-    "husky": "^8.0.0",
-    "nuxt": "^3.2.0",
-    "nuxt-windicss": "^2.6.0",
-    "pinia": "^2.0.30",
-    "typescript": "^4.9.5",
-    "vite": "^4.1.1",
-    "vitest": "^0.28.4",
-    "vue": "^3.2.47"
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/i18n": "8.0.0-rc.4",
+    "@pinia/nuxt": "^0.4.11",
+    "@playwright/test": "^1.37.1",
+    "@vueuse/core": "^10.4.1",
+    "@vueuse/nuxt": "^10.4.1",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.48.0",
+    "eslint-plugin-vitest": "^0.3.1",
+    "husky": "^8.0.3",
+    "nuxt": "^3.7.1",
+    "pinia": "^2.1.6",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "vitest": "^0.34.3"
+  },
+  "engines": {
+    "node": ">=16.14",
+    "pnpm": ">=8"
   }
 }
